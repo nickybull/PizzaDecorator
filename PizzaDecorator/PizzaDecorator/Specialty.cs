@@ -7,119 +7,119 @@ namespace PizzaDecorator
 {
     public class Hawaiian : Pizza
     {
-        Pizza zia;
-        public Hawaiian(Pizza zia)
+        Pizza za;
+        public Hawaiian(Pizza za)
         {
-            this.zia = zia;
-            this.zia = new Ham(this.zia);
-            this.zia = new Pineapple(this.zia);
-            this.zia = new Cheese(this.zia);
+            this.za = za;
+            this.za = new Ham(this.za);
+            this.za = new Pineapple(this.za);
+            this.za = new Cheese(this.za);
         }
 
         public override string getDescription()
         {
-            return zia.getDescription();
+            return za.getDescription();
         }
 
         public override double cost()
         {
-            return zia.cost() - .50;
+            return za.cost() - .50;
         }
     }
     public class MeatLovers : Pizza
     {
-        Pizza zia;
-        public MeatLovers(Pizza zia)
+        Pizza za;
+        public MeatLovers(Pizza za)
         {
-            this.zia = zia;
-            this.zia = new Ham(this.zia);
-            this.zia = new Sausage(this.zia);
-            this.zia = new Pepperoni(this.zia);
-            this.zia = new Bacon(this.zia);
-            this.zia = new Cheese(this.zia);
+            this.za = za;
+            this.za = new Ham(this.za);
+            this.za = new Sausage(this.za);
+            this.za = new Pepperoni(this.za);
+            this.za = new Bacon(this.za);
+            this.za = new Cheese(this.za);
         }
 
         public override string getDescription()
         {
-            return zia.getDescription();
+            return za.getDescription();
         }
 
         public override double cost()
         {
-            return zia.cost() - 1.50;
+            return za.cost() - 1.50;
         }
     }
     public class Veggie : Pizza
     {
-        Pizza zia;
-        public Veggie(Pizza zia)
+        Pizza za;
+        public Veggie(Pizza za)
         {
-            this.zia = zia;
-            this.zia = new Onions(this.zia);
-            this.zia = new Mushrooms(this.zia);
-            this.zia = new Peppers(this.zia);
-            this.zia = new Cheese(this.zia);
+            this.za = za;
+            this.za = new Onions(this.za);
+            this.za = new Mushrooms(this.za);
+            this.za = new Peppers(this.za);
+            this.za = new Cheese(this.za);
         }
 
         public override string getDescription()
         {
-            return zia.getDescription();
+            return za.getDescription();
         }
 
         public override double cost()
         {
-            return zia.cost() - 1.00;
+            return za.cost() - 1.00;
         }
     }
     public class Supreme : Pizza
     {
-        Pizza zia;
-        public Supreme(Pizza zia)
+        Pizza za;
+        public Supreme(Pizza za)
         {
-            this.zia = zia;
-            this.zia = new Peppers(this.zia);
-            this.zia = new Sausage(this.zia);
-            this.zia = new Bacon(this.zia);
-            this.zia = new Onions(this.zia);
-            this.zia = new Mushrooms(this.zia);
-            this.zia = new Cheese(this.zia);
+            this.za = za;
+            this.za = new Peppers(this.za);
+            this.za = new Sausage(this.za);
+            this.za = new Bacon(this.za);
+            this.za = new Onions(this.za);
+            this.za = new Mushrooms(this.za);
+            this.za = new Cheese(this.za);
         }
 
         public override string getDescription()
         {
-            return zia.getDescription();
+            return za.getDescription();
         }
 
         public override double cost()
         {
-            return zia.cost() - 2.00;
+            return za.cost() - 2.00;
         }
     }
     public class Everything : Pizza
     {
-        Pizza zia;
-        public Everything(Pizza zia)
+        Pizza za;
+        public Everything(Pizza za)
         {
-            this.zia = zia;
-            this.zia = new Ham(this.zia);
-            this.zia = new Sausage(this.zia);
-            this.zia = new Pepperoni(this.zia);
-            this.zia = new Bacon(this.zia);
-            this.zia = new Pineapple(this.zia);
-            this.zia = new Onions(this.zia);
-            this.zia = new Peppers(this.zia);
-            this.zia = new Mushrooms(this.zia);
-            this.zia = new Cheese(this.zia);
+            this.za = za;
+            this.za = new Ham(this.za);
+            this.za = new Sausage(this.za);
+            this.za = new Pepperoni(this.za);
+            this.za = new Bacon(this.za);
+            this.za = new Pineapple(this.za);
+            this.za = new Onions(this.za);
+            this.za = new Peppers(this.za);
+            this.za = new Mushrooms(this.za);
+            this.za = new Cheese(this.za);
         }
 
         public override string getDescription()
         {
-            return zia.getDescription();
+            return za.getDescription();
         }
 
         public override double cost()
         {
-            return zia.cost() - 3.50;
+            return za.cost() - 3.50;
         }
     }
 }

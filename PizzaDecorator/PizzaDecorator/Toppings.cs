@@ -12,244 +12,244 @@ namespace PizzaDecorator
     
     public class Cheese : Toppings
     {
-        Pizza zia;
-        public Cheese(Pizza zia)
+        Pizza za;
+        public Cheese(Pizza za)
         {
-            this.zia = zia;
+            this.za = za;
         }
 
         public override String getDescription()
         {
-            if (zia.getBool())
+            if (za.getBool())
             {
-                zia.setBool(false);
-                return zia.getDescription() + " with Cheese";
+                za.setBool(false);
+                return za.getDescription() + " with Cheese";
             }
             else
             {
-                return zia.getDescription() + ", and Cheese";
+                return za.getDescription() + ", and Cheese";
             }
         }
 
         public override double cost()
         {
-            return .20 + zia.cost();
+            return .20 + za.cost();
         }
     }
 
     public class Pepperoni : Toppings
     {
-        Pizza zia;
-        public Pepperoni(Pizza zia)
+        Pizza za;
+        public Pepperoni(Pizza za)
         {
-            this.zia = zia;
+            this.za = za;
         }
 
         public override String getDescription()
         {
-            if (zia.getBool())
+            if (za.getBool())
             {
-                zia.setBool(false);
-                return zia.getDescription() + " with Pepperoni";
+                za.setBool(false);
+                return za.getDescription() + " with Pepperoni";
             }
             else
             {
-                return zia.getDescription() + ", and Pepperoni";
+                return za.getDescription() + ", and Pepperoni";
             }
         }
 
         public override double cost()
         {
-            return 1.00 + zia.cost();
+            return 1.00 + za.cost();
         }
     }
 
     public class Onions : Toppings
     {
-        Pizza zia;
-        public Onions(Pizza zia)
+        Pizza za;
+        public Onions(Pizza za)
         {
-            this.zia = zia;
+            this.za = za;
         }
 
         public override String getDescription()
         {
-            if (zia.getBool())
+            if (za.getBool())
             {
-                zia.setBool(false);
-                return zia.getDescription() + " with Onions";
+                za.setBool(false);
+                return za.getDescription() + " with Onions";
             }
             else
             {
-                return zia.getDescription() + ", and Onions";
+                return za.getDescription() + ", and Onions";
             }
         }
 
         public override double cost()
         {
-            return .25 + zia.cost();
+            return .25 + za.cost();
         }
     }
 
     public class Peppers : Toppings
     {
-        Pizza zia;
-        public Peppers(Pizza zia)
+        Pizza za;
+        public Peppers(Pizza za)
         {
-            this.zia = zia;
+            this.za = za;
         }
 
         public override String getDescription()
         {
-            if (zia.getBool())
+            if (za.getBool())
             {
-                zia.setBool(false);
-                return zia.getDescription() + " with Peppers";
+                za.setBool(false);
+                return za.getDescription() + " with Peppers";
             }
             else
             {
-                return zia.getDescription() + ", and Peppers";
+                return za.getDescription() + ", and Peppers";
             }
         }
 
         public override double cost()
         {
-            return .75 + zia.cost();
+            return .75 + za.cost();
         }
     }
 
     public class Sausage : Toppings
     {
-        Pizza zia;
-        public Sausage(Pizza zia)
+        Pizza za;
+        public Sausage(Pizza za)
         {
-            this.zia = zia;
+            this.za = za;
         }
 
         public override String getDescription()
         {
-            if (zia.getBool())
+            if (za.getBool())
             {
-                zia.setBool(false);
-                return zia.getDescription() + " with Sausage";
+                za.setBool(false);
+                return za.getDescription() + " with Sausage";
             }
             else
             {
-                return zia.getDescription() + ", and Sausage";
+                return za.getDescription() + ", and Sausage";
             }
         }
 
         public override double cost()
         {
-            return 1.25 + zia.cost();
+            return 1.25 + za.cost();
         }
     }
 
     public class Bacon : Toppings
     {
-        Pizza zia;
-        public Bacon(Pizza zia)
+        Pizza za;
+        public Bacon(Pizza za)
         {
-            this.zia = zia;
+            this.za = za;
         }
 
         public override String getDescription()
         {
-            if (zia.getBool())
+            if (za.getBool())
             {
-                zia.setBool(false);
-                return zia.getDescription() + " with Bacon";
+                za.setBool(false);
+                return za.getDescription() + " with Bacon";
             }
             else
             {
-                return zia.getDescription() + ", and Bacon";
+                return za.getDescription() + ", and Bacon";
             }
         }
 
         public override double cost()
         {
-            return 2.00 + zia.cost();
+            return 2.00 + za.cost();
         }
     }
 
     public class Pineapple : Toppings
     {
-        Pizza zia;
-        public Pineapple(Pizza zia)
+        Pizza za;
+        public Pineapple(Pizza za)
         {
-            this.zia = zia;
+            this.za = za;
         }
 
         public override String getDescription()
         {
-            if (zia.getBool())
+            if (za.getBool())
             {
-                zia.setBool(false);
-                return zia.getDescription() + " with Pineapple";
+                za.setBool(false);
+                return za.getDescription() + " with Pineapple";
             }
             else
             {
-                return zia.getDescription() + ", and Pineapple";
+                return za.getDescription() + ", and Pineapple";
             }
         }
 
         public override double cost()
         {
-            return .75 + zia.cost();
+            return .75 + za.cost();
         }
     }
 
     public class Ham : Toppings
     {
-        Pizza zia;
-        public Ham(Pizza zia)
+        Pizza za;
+        public Ham(Pizza za)
         {
-            this.zia = zia;
+            this.za = za;
         }
 
         public override String getDescription()
         {
-            if (zia.getBool())
+            if (za.getBool())
             {
-                zia.setBool(false);
-                return zia.getDescription() + " with Ham";
+                za.setBool(false);
+                return za.getDescription() + " with Ham";
             }
             else
             {
-                return zia.getDescription() + ", and Ham";
+                return za.getDescription() + ", and Ham";
             }
         }
 
         public override double cost()
         {
-            return 1.00 + zia.cost();
+            return 1.00 + za.cost();
         }
     }
 
     public class Mushrooms : Toppings
     {
-        Pizza zia;
-        public Mushrooms(Pizza zia)
+        Pizza za;
+        public Mushrooms(Pizza za)
         {
-            this.zia = zia;
+            this.za = za;
         }
 
         public override String getDescription()
         {
-            if (zia.getBool())
+            if (za.getBool())
             {
-                zia.setBool(false);
-                return zia.getDescription() + " with Mushrooms";
+                za.setBool(false);
+                return za.getDescription() + " with Mushrooms";
             }
             else
             {
-                return zia.getDescription() + ", and Mushrooms";
+                return za.getDescription() + ", and Mushrooms";
             }
         }
 
         public override double cost()
         {
-            return .50 + zia.cost();
+            return .50 + za.cost();
         }
     }
 }
