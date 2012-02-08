@@ -1,0 +1,5 @@
+C:\Users\nickybull\PizzaDecorator\PizzaDecorator\PizzaDecorator\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\nickybull\PizzaDecorator\PizzaDecorator\PizzaDecorator\bin\Debug\PizzaDecorator.exe
+C:\Users\nickybull\PizzaDecorator\PizzaDecorator\PizzaDecorator\bin\Debug\PizzaDecorator.pdb
+C:\Users\nickybull\PizzaDecorator\PizzaDecorator\PizzaDecorator\obj\x86\Debug\PizzaDecorator.exe
+C:\Users\nickybull\PizzaDecorator\PizzaDecorator\PizzaDecorator\obj\x86\Debug\PizzaDecorator.pdb
